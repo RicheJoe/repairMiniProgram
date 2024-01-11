@@ -1,0 +1,61 @@
+{
+  "pages": [
+    {
+      "path": "pages/login-auth/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "故障报修"
+      }
+    },
+    {
+      "path": "pages/improveSkill/index",
+      "style": {
+        "navigationBarTitleText": "技能提升(技术学习)"
+      }
+    },
+    {
+      "path": "pages/ucenter/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#ff3456",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/nav/icon-index-b.png",
+        "selectedIconPath": "static/images/nav/icon-index-r.png",
+        "text": "故障报修"
+      },
+      {
+        "pagePath": "pages/improveSkill/index",
+        "iconPath": "static/images/nav/icon-cart-b.png",
+        "selectedIconPath": "static/images/nav/icon-cart-r.png",
+        "text": "技能提升(技术学习)"
+      },
+      {
+        "pagePath": "pages/ucenter/index",
+        "iconPath": "static/images/nav/icon-center-b.png",
+        "selectedIconPath": "static/images/nav/icon-center-r.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "subPackages": []
+}
