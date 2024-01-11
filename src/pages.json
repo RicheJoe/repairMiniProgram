@@ -23,6 +23,24 @@
       "style": {
         "navigationBarTitleText": "个人中心"
       }
+    },
+    {
+      "path": "pages/repairing/index",
+      "style": {
+        "navigationBarTitleText": "维修"
+      }
+    },
+    {
+      "path": "pages/submit-data/index",
+      "style": {
+        "navigationBarTitleText": "报告"
+      }
+    },
+    {
+      "path": "pages/history/index",
+      "style": {
+        "navigationBarTitleText": "历史记录"
+      }
     }
   ],
   "tabBar": {
